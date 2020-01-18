@@ -3,6 +3,7 @@
 ## Lab 1
 
 Problems from Informatics python [course](https://informatics.mccme.ru/course/view.php?id=156):
+
 1. Типы данных: все задачи
 2. Целочисленная арифметика: 5 задач
 3. Условная инструкция: 5 задач
