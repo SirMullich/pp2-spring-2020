@@ -28,9 +28,9 @@ def cls():
 
 # reading from file in relative path
 def read():
-    currentPath = Path.cwd()
+    currentPath = os.getcwd()
     print(currentPath)
-    with open(currentPath / 'week-2' / 'data' / 'numbers.txt', 'r') as file:
+    with open(os.path.join(currentPath, 'week-2/data/numbers.txt'), 'r') as file:
         line = file.readline()
         nums = line.split(' ')
         print('This is a list of nums from file: {0}'.format(nums))
@@ -50,14 +50,15 @@ def write_to_file(nums: list):
     Returns: None
 
     '''
-    current_path = Path.cwd()
-    with open(current_path / 'week-2' / 'data' / 'even_numbers.txt', 'w') as file:
+    current_path = os.getcwd()
+    with open(os.path.join(current_path, 'week-2/data/even_numbers.txt'), 'w') as file:
         for num in nums:
-            file.write(str(num) + ' ')
+            if (num % 2 == 0): 
+                file.write(str(num) + ' ')
 
 
 
 if __name__ == '__main__':
     # working_with_lists()
-    # read()
+    read()
     print(write_to_file([5, 6, 10, 82, 19]))
