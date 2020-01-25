@@ -56,9 +56,31 @@ def write_to_file(nums: list):
             if (num % 2 == 0): 
                 file.write(str(num) + ' ')
 
+def show_files_and_dirs(dir_path: str):
+    '''Show directories and files in current directory
 
+    Keyword arguments:
+    dir_path -- path of directory
+
+    Returns: None
+
+    '''
+
+    with os.scandir(dir_path) as scan:
+        for entry in scan:
+            if (entry.is_file()): 
+                print(entry.name)
+
+    # subfolders = [ f.path for f in os.scandir(dir_path) if f.is_dir() ]
+    # print(subfolders)
+
+    # for root, dirs, files in os.walk(dir_path):
+    #     print(root)
+    #     print(dirs)
+    #     print(files)
 
 if __name__ == '__main__':
     # working_with_lists()
-    read()
-    print(write_to_file([5, 6, 10, 82, 19]))
+    # read()
+    # print(write_to_file([5, 6, 10, 82, 19]))
+    show_files_and_dirs(os.getcwd())
