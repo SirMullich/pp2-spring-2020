@@ -58,5 +58,9 @@ if __name__ == '__main__':
     # print(is_odd(101))
     # print(tenth(47))
     # print(tenth(94))
-    greet1 = greeting()
-    print(greet1)
+    # greet1 = greeting()
+    # print(greet1)
+    # print(approximate_size.__doc__)
+
+    import sys
+    print(sys.path)
