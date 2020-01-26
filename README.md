@@ -117,3 +117,53 @@ Sample output:
 [10]
 [9, 0, 12, 3, 4, 56, 9]
 ```
+
+### Exercise 10
+
+Create a function that returns set with neighbor numbers of given set.
+
+Sample input:
+```python
+exercise_10({1, 5, 9})
+exercise_10({2, 5, 7, 8, 10})
+```
+
+Sample output:
+```python
+{0, 2, 4, 6, 8, 10}
+{1, 3, 4, 6, 7, 8, 9, 11}
+```
+
+### Exercise 11
+
+Create a function that returns difference of given 2 sets.
+(The difference of sets A,B consists of elements that are in A but not in B).
+  
+Sample input:
+```python
+#A = {1, 2, 3, 4}, B = {3, 5, 7}
+exercise_11({1, 2, 3, 4}, {3, 5, 7})
+exercise_11({12, 15, 16, 20, 95}, {1, 2, 3, 16, 17, 20})
+```
+
+Sample output:
+```python
+{1, 2, 4}
+{12, 15, 95}
+```
+
+### Exercise 12
+
+Create a function that returns a set with values from given list, if some number already exists in the set, take it to the power of two, three ... while it's in the set.
+
+Sample input:
+```python
+exercise_12([1, 2, 2])
+exercise_12([1, 2, 2, 3, 4])
+```
+
+Sample output:
+```python
+{1, 2, 4}
+{1, 2, 3, 4, 16}
+```
