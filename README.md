@@ -117,3 +117,57 @@ Sample output:
 [10]
 [9, 0, 12, 3, 4, 56, 9]
 ```
+
+## Tuples
+
+### Exercise 7
+
+Given three variables, a, b and c, swap them without using temporary variables.
+
+Sample input:
+```python
+# a = 5, b = 3, c = 2
+(5, 3, 2)
+('Hi', 'Ola', 'xD')
+```
+
+Sample output:
+```python
+# a = 2, b = 5, c = 3
+(2, 5, 3)
+('xD', 'Hi', 'Ola')
+```
+
+### Exercise 8
+
+Create a function that returns both minimum and maximum value of given list.
+
+Sample input:
+```python
+exercise_8([10, 2, 5, -3, -1])
+exercise_8([5, 2, 8, 4])
+```
+
+Sample output:
+```python
+(-1, 10)
+(2, 8)
+```
+
+### Exercise 9
+
+Create a function that returns True, if given tuple contains mutable element.
+
+Sample input:
+```python
+exercise_9((10, 2, 5, [4, 8, 2], 3, 5))
+exercise_9((5, 2.5, 8, 4, 'Hi', -5, True, 6))
+```
+
+Sample output:
+```python
+#Element at index 3 is list that can be changed
+True
+#All elements of given tuple are immutable objects
+False
+```
