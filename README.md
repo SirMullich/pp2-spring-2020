@@ -262,8 +262,8 @@ Create a function that returns number of odd numbers that are on even positions;
 
 Sample input:
 ```python
-exercise_14([0,3,11,2,44,23,4])
-exercise_14([22,23,24,33,34,35])
+exercise_15([0,3,11,2,44,23,4])
+exercise_15([22,23,24,33,34,35])
 ```
 
 Sample Output:
