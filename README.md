@@ -223,3 +223,51 @@ Sample output:
 {1, 2, 4}
 {1, 2, 3, 4, 16}
 ```
+
+### Exercise 13
+
+Create a function that returns Yes, if there can be formed palindrome text using given list of number, or No, if there is no way to make a palindrome. 
+
+Sample input:
+```python
+exercise_13([1,2,3,4,1])
+exercise_13([1,2,3,1,2])
+```
+
+Sample Output:
+```
+No
+Yes
+```
+
+### Exercise 14
+
+Create a function that returns list of numbers from the given list, that are more than given number N;
+
+Sample input:
+```python
+exercise_14([11,2,44,23], 10)
+exercise_14([1,200,45,-67], 45)
+```
+
+Sample Output:
+```
+{11,44,23}
+{200}
+```
+
+### Exercise 15
+
+Create a function that returns number of odd numbers that are on even positions;
+
+Sample input:
+```python
+exercise_14([0,3,11,2,44,23,4])
+exercise_14([22,23,24,33,34,35])
+```
+
+Sample Output:
+```
+2
+3
+```
