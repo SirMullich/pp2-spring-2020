@@ -50,7 +50,7 @@ def tenth(num):
 
 def greeting():
     name = input('Please input your name: ')
-    return 'Welcome {0}'.format(name, 100)
+    return 'Welcome {0}'.format(name)
 
 if __name__ == '__main__':
     # print(approximate_size(10000000, False))
