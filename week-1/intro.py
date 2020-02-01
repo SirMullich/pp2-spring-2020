@@ -1,5 +1,5 @@
 # keys = 1000 and 1024
-# values = list
+# values = list, list of Strings
 SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
             1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']}
 
@@ -23,12 +23,12 @@ def approximate_size(size, a_kilobyte_is_1024_bytes = True):
     # traverse list
     # ex: SUFFIXES[multiple] -> ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
     # ex: multiple = 1000
-    for suffix in SUFFIXES[multiple]:
+    for suffix in SUFFIXES[multiple]: # for (int i = 0; i < SUFFIXES[multiple].len; i++)
         # 1) 10000000 / 1000 -> 10000
         # 2) 10000 / 1000 -> 10
         size /= multiple # size = size / multiple
         if size < multiple:
-            return '{0:.1f} {1}'.format(size, suffix)
+            return '{0:.1f} {1}'.format(size, suffix) # string interpolation (build a string)
 
     raise ValueError('number too large')
 
@@ -50,7 +50,7 @@ def tenth(num):
 
 def greeting():
     name = input('Please input your name: ')
-    return 'Welcome {}'.format(name)
+    return 'Welcome {0}'.format(name, 100)
 
 if __name__ == '__main__':
     # print(approximate_size(10000000, False))
