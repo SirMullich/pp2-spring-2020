@@ -1,0 +1,530 @@
+[
+    {
+        "age": "22",
+        "movie": "Seventh Heaven",
+        "name": "Janet Gaynor",
+        "year": "1928"
+    },
+    {
+        "age": "37",
+        "movie": "Coquette",
+        "name": "Mary Pickford",
+        "year": "1929"
+    },
+    {
+        "age": "28",
+        "movie": "The Divorcee",
+        "name": "Norma Shearer",
+        "year": "1930"
+    },
+    {
+        "age": "63",
+        "movie": "Min and Bill",
+        "name": "Marie Dressler",
+        "year": "1931"
+    },
+    {
+        "age": "32",
+        "movie": "The Sin of Madelon Claudet",
+        "name": "Helen Hayes",
+        "year": "1932"
+    },
+    {
+        "age": "26",
+        "movie": "Morning Glory",
+        "name": "Katharine Hepburn",
+        "year": "1933"
+    },
+    {
+        "age": "31",
+        "movie": "It Happened One Night",
+        "name": "Claudette Colbert",
+        "year": "1934"
+    },
+    {
+        "age": "27",
+        "movie": "Dangerous",
+        "name": "Bette Davis",
+        "year": "1935"
+    },
+    {
+        "age": "27",
+        "movie": "The Great Ziegfeld",
+        "name": "Luise Rainer",
+        "year": "1936"
+    },
+    {
+        "age": "28",
+        "movie": "The Good Earth",
+        "name": "Luise Rainer",
+        "year": "1937"
+    },
+    {
+        "age": "30",
+        "movie": "Jezebel",
+        "name": "Bette Davis",
+        "year": "1938"
+    },
+    {
+        "age": "26",
+        "movie": "Gone with the Wind",
+        "name": "Vivien Leigh",
+        "year": "1939"
+    },
+    {
+        "age": "29",
+        "movie": "Kitty Foyle",
+        "name": "Ginger Rogers",
+        "year": "1940"
+    },
+    {
+        "age": "24",
+        "movie": "Suspicion",
+        "name": "Joan Fontaine",
+        "year": "1941"
+    },
+    {
+        "age": "38",
+        "movie": "Mrs. Miniver",
+        "name": "Greer Garson",
+        "year": "1942"
+    },
+    {
+        "age": "25",
+        "movie": "The Song of Bernadette",
+        "name": "Jennifer Jones",
+        "year": "1943"
+    },
+    {
+        "age": "29",
+        "movie": "Gaslight",
+        "name": "Ingrid Bergman",
+        "year": "1944"
+    },
+    {
+        "age": "40",
+        "movie": "Mildred Pierce",
+        "name": "Joan Crawford",
+        "year": "1945"
+    },
+    {
+        "age": "30",
+        "movie": "To Each His Own",
+        "name": "Olivia de Havilland",
+        "year": "1946"
+    },
+    {
+        "age": "35",
+        "movie": "The Farmer's Daughter",
+        "name": "Loretta Young",
+        "year": "1947"
+    },
+    {
+        "age": "32",
+        "movie": "Johnny Belinda",
+        "name": "Jane Wyman",
+        "year": "1948"
+    },
+    {
+        "age": "33",
+        "movie": "The Heiress",
+        "name": "Olivia de Havilland",
+        "year": "1949"
+    },
+    {
+        "age": "29",
+        "movie": "Born Yesterday",
+        "name": "Judy Holliday",
+        "year": "1950"
+    },
+    {
+        "age": "38",
+        "movie": "A Streetcar Named Desire",
+        "name": "Vivien Leigh",
+        "year": "1951"
+    },
+    {
+        "age": "54",
+        "movie": "Come Back",
+        "name": "Shirley Booth",
+        "year": "1952"
+    },
+    {
+        "age": "24",
+        "movie": "Roman Holiday",
+        "name": "Audrey Hepburn",
+        "year": "1953"
+    },
+    {
+        "age": "25",
+        "movie": "The Country Girl",
+        "name": "Grace Kelly",
+        "year": "1954"
+    },
+    {
+        "age": "48",
+        "movie": "The Rose Tattoo",
+        "name": "Anna Magnani",
+        "year": "1955"
+    },
+    {
+        "age": "41",
+        "movie": "Anastasia",
+        "name": "Ingrid Bergman",
+        "year": "1956"
+    },
+    {
+        "age": "28",
+        "movie": "The Three Faces of Eve",
+        "name": "Joanne Woodward",
+        "year": "1957"
+    },
+    {
+        "age": "41",
+        "movie": "I Want to Live!",
+        "name": "Susan Hayward",
+        "year": "1958"
+    },
+    {
+        "age": "39",
+        "movie": "Room at the Top",
+        "name": "Simone Signoret",
+        "year": "1959"
+    },
+    {
+        "age": "29",
+        "movie": "BUtterfield 8",
+        "name": "Elizabeth Taylor",
+        "year": "1960"
+    },
+    {
+        "age": "27",
+        "movie": "Two Women",
+        "name": "Sophia Loren",
+        "year": "1961"
+    },
+    {
+        "age": "31",
+        "movie": "The Miracle Worker",
+        "name": "Anne Bancroft",
+        "year": "1962"
+    },
+    {
+        "age": "31",
+        "movie": "Hud",
+        "name": "Patricia Neal",
+        "year": "1963"
+    },
+    {
+        "age": "29",
+        "movie": "Mary Poppins",
+        "name": "Julie Andrews",
+        "year": "1964"
+    },
+    {
+        "age": "25",
+        "movie": "Darling",
+        "name": "Julie Christie",
+        "year": "1965"
+    },
+    {
+        "age": "35",
+        "movie": "Who's Afraid of Virginia Woolf?",
+        "name": "Elizabeth Taylor",
+        "year": "1966"
+    },
+    {
+        "age": "60",
+        "movie": "Guess Who's Coming to Dinner",
+        "name": "Katharine Hepburn",
+        "year": "1967"
+    },
+    {
+        "age": "61",
+        "movie": "The Lion in Winter",
+        "name": "Katharine Hepburn",
+        "year": "1968"
+    },
+    {
+        "age": "26",
+        "movie": "Funny Girl",
+        "name": "Barbra Streisand",
+        "year": "1969"
+    },
+    {
+        "age": "35",
+        "movie": "The Prime of Miss Jean Brodie",
+        "name": "Maggie Smith",
+        "year": "1970"
+    },
+    {
+        "age": "34",
+        "movie": "Women in Love",
+        "name": "Glenda Jackson",
+        "year": "1971"
+    },
+    {
+        "age": "34",
+        "movie": "Klute",
+        "name": "Jane Fonda",
+        "year": "1972"
+    },
+    {
+        "age": "27",
+        "movie": "Cabaret",
+        "name": "Liza Minnelli",
+        "year": "1973"
+    },
+    {
+        "age": "37",
+        "movie": "A Touch of Class",
+        "name": "Glenda Jackson",
+        "year": "1974"
+    },
+    {
+        "age": "42",
+        "movie": "Alice Doesn't Live Here Anymore",
+        "name": "Ellen Burstyn",
+        "year": "1975"
+    },
+    {
+        "age": "41",
+        "movie": "One Flew Over the Cuckoo's Nest",
+        "name": "Louise Fletcher",
+        "year": "1976"
+    },
+    {
+        "age": "36",
+        "movie": "Network",
+        "name": "Faye Dunaway",
+        "year": "1977"
+    },
+    {
+        "age": "32",
+        "movie": "Annie Hall",
+        "name": "Diane Keaton",
+        "year": "1978"
+    },
+    {
+        "age": "41",
+        "movie": "Coming Home",
+        "name": "Jane Fonda",
+        "year": "1979"
+    },
+    {
+        "age": "33",
+        "movie": "Norma Rae",
+        "name": "Sally Field",
+        "year": "1980"
+    },
+    {
+        "age": "31",
+        "movie": "Coal Miner's Daughter",
+        "name": "Sissy Spacek",
+        "year": "1981"
+    },
+    {
+        "age": "74",
+        "movie": "On Golden Pond",
+        "name": "Katharine Hepburn",
+        "year": "1982"
+    },
+    {
+        "age": "33",
+        "movie": "Sophie's Choice",
+        "name": "Meryl Streep",
+        "year": "1983"
+    },
+    {
+        "age": "49",
+        "movie": "Terms of Endearment",
+        "name": "Shirley MacLaine",
+        "year": "1984"
+    },
+    {
+        "age": "38",
+        "movie": "Places in the Heart",
+        "name": "Sally Field",
+        "year": "1985"
+    },
+    {
+        "age": "61",
+        "movie": "The Trip to Bountiful",
+        "name": "Geraldine Page",
+        "year": "1986"
+    },
+    {
+        "age": "21",
+        "movie": "Children of a Lesser God",
+        "name": "Marlee Matlin",
+        "year": "1987"
+    },
+    {
+        "age": "41",
+        "movie": " Moonstruck62",
+        "name": "Cher",
+        "year": "1988"
+    },
+    {
+        "age": "80",
+        "movie": "Driving Miss Daisy",
+        "name": "Jessica Tandy",
+        "year": "1990"
+    },
+    {
+        "age": "42",
+        "movie": "Misery",
+        "name": "Kathy Bates",
+        "year": "1991"
+    },
+    {
+        "age": "29",
+        "movie": "The Silence of the Lambs",
+        "name": "Jodie Foster",
+        "year": "1992"
+    },
+    {
+        "age": "33",
+        "movie": "Howards End",
+        "name": "Emma Thompson",
+        "year": "1993"
+    },
+    {
+        "age": "36",
+        "movie": "The Piano",
+        "name": "Holly Hunter",
+        "year": "1994"
+    },
+    {
+        "age": "45",
+        "movie": "Blue Sky",
+        "name": "Jessica Lange",
+        "year": "1995"
+    },
+    {
+        "age": "49",
+        "movie": "Dead Man Walking",
+        "name": "Susan Sarandon",
+        "year": "1996"
+    },
+    {
+        "age": "39",
+        "movie": "Fargo",
+        "name": "Frances McDormand",
+        "year": "1997"
+    },
+    {
+        "age": "34",
+        "movie": "As Good as It Gets",
+        "name": "Helen Hunt",
+        "year": "1998"
+    },
+    {
+        "age": "26",
+        "movie": "Shakespeare in Love",
+        "name": "Gwyneth Paltrow",
+        "year": "1999"
+    },
+    {
+        "age": "25",
+        "movie": "Boys Don't Cry",
+        "name": "Hilary Swank",
+        "year": "2000"
+    },
+    {
+        "age": "33",
+        "movie": "Erin Brockovich",
+        "name": "Julia Roberts",
+        "year": "2001"
+    },
+    {
+        "age": "35",
+        "movie": "Monster's Ball",
+        "name": "Halle Berry",
+        "year": "2002"
+    },
+    {
+        "age": "35",
+        "movie": "The Hours",
+        "name": "Nicole Kidman",
+        "year": "2003"
+    },
+    {
+        "age": "28",
+        "movie": "Monster",
+        "name": "Charlize Theron",
+        "year": "2004"
+    },
+    {
+        "age": "30",
+        "movie": "Million Dollar Baby",
+        "name": "Hilary Swank",
+        "year": "2005"
+    },
+    {
+        "age": "29",
+        "movie": "Walk the Line",
+        "name": "Reese Witherspoon",
+        "year": "2006"
+    },
+    {
+        "age": "61",
+        "movie": "The Queen",
+        "name": "Helen Mirren",
+        "year": "2007"
+    },
+    {
+        "age": "32",
+        "movie": "La Vie en rose",
+        "name": "Marion Cotillard",
+        "year": "2008"
+    },
+    {
+        "age": "33",
+        "movie": "The Reader",
+        "name": "Kate Winslet",
+        "year": "2009"
+    },
+    {
+        "age": "45",
+        "movie": "The Blind Side",
+        "name": "Sandra Bullock",
+        "year": "2010"
+    },
+    {
+        "age": "29",
+        "movie": "Black Swan",
+        "name": "Natalie Portman",
+        "year": "2011"
+    },
+    {
+        "age": "62",
+        "movie": "The Iron Lady",
+        "name": "Meryl Streep",
+        "year": "2012"
+    },
+    {
+        "age": "22",
+        "movie": "Silver Linings Playbook",
+        "name": "Jennifer Lawrence",
+        "year": "2013"
+    },
+    {
+        "age": "44",
+        "movie": "Blue Jasmine",
+        "name": "Cate Blanchett",
+        "year": "2014"
+    },
+    {
+        "age": "54",
+        "movie": "Still Alice",
+        "name": "Julianne Moore",
+        "year": "2015"
+    },
+    {
+        "age": "26",
+        "movie": "Room",
+        "name": "Brie Larson",
+        "year": "2016"
+    }
+]
