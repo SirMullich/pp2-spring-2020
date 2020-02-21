@@ -271,3 +271,155 @@ Sample Output:
 2
 3
 ```
+
+## Lab 4
+Disclaimer: some method definitions are not complete. Especially pay attention to passed `self` parameter that was omitted in method signatures. You may change method definitions to implement requirements. 
+
+### Task 1
+Design a class `Name`. Name should have 3 parameters: first_name, last_name and *optional* middle_name(father's name отчество).
+
+```python
+class Name:
+    pass
+
+# example usage:
+name1 = Name('Daulet', 'Kabdiyev', 'Bolatovich')
+name2 = Name('Alik', 'Akhmetov')
+```
+
+### Task 2
+Design a class `Student`. Student has a student_id of type string and a name of type `Name` (from Task1).
+
+```python
+class Student:
+    pass
+
+# example usage:
+student = Student('16BD02006', Name('Daulet', 'Kabdiyev', 'Bolatovich'))
+```
+
+### Task 3
+Design a class `Assistant`. Assistant has a name of type `Name` and a `year_of_study` of type int. Also, implement method `get_name` that returns `Name` of assistant.
+
+```python
+
+class Assistant:
+
+    def get_name():
+        pass
+
+# example usage:
+assistant = Assistant(Name('Alik', 'Akhmetov'), 2)
+assistant.get_name()  # returns Name('Alik', 'Akhmetov')
+```
+
+
+### Task 4
+Implement `__str__` methods in `Name` and `Student`.
+
+```python
+print(name) # Daulet Kabdiyev Bolatovich
+print(student) # Daulet Kabdieyv Bolatovich, student ID: 16BD02006
+print(assistant) # Alik Akhmetov, studying 2 year
+```
+
+### Task 4
+Design a class `PP2`. PP2 has `assistants` which is a `list` of `Assistant`. PP2 also has `students` which is a `list` of `Student`. PP2 has `groups` which is dictionary where keys are strings and values are lists of `Student`. When PP2 is initialized, `groups` is empty.
+
+* Implement method `get_groups` that returns a dictionary.
+* Implement method `get_assistants` that returns a list of `Assistant`
+* Implement method `get_students` that returns a list of `Student`
+
+```python
+class PP2:
+
+    def get_assistants():
+        pass
+
+    def get_students():
+        pass
+
+    def get_groups():
+        pass
+
+    def add_user_to_Group(name: Name, student: Student):
+        pass
+
+    def populate_from_csv(filename: str):
+        pass
+
+    def save_to_json(filename: str):
+        pass
+
+# example usage
+pp2 = PP2([Assistant(Name('Alik', 'Akhmetov'), 2)], [Student('16BD02006', Name('Daulet', 'Kabdiyev', 'Bolatovich')), Student('16BD02007', Name('Ivan', 'Ivanov', 'Ivanovich'))])
+
+pp2.get_groups() # returns empty dictionary, i.e. {}
+pp2.get_students() # returns a list with 2 students: Daulet and Ivan
+pp2.get_assistants() # returns a list with 1 assistant: Alik
+
+```
+
+### Task 5
+Implement method `addUserToGroup(name: Name, student: Student)` in `PP2`. `name` is assistant name. When student is added to group, student is added to assistant with given name. If no such assistant exists in `groups`, an empty list should be initialized and student added to it.
+
+```python
+assistant1 = Assistant(Name('Alik', 'Akhmetov'), 2)
+student1 = Student('16BD02006', Name('Daulet', 'Kabdiyev', 'Bolatovich'))
+student2 = Student('16BD02007', Name('Ivan', 'Ivanov', 'Ivanovich'))
+
+pp2 = PP2([assistant1], [student1, student2])
+
+pp2.add_user_to_Group(assistant1.get_name(), student1)
+pp2.add_user_to_Group(assistant1.get_name(), student2)
+
+pp2.get_groups()
+
+```
+
+### Task 6
+Implement `populate_from_csv` method in `PP2`. Use CSV file provided by your assistant in Telegram group to populate `pp2`. 
+
+```python
+pp2 = PP2([], [])
+pp2.populate_from_csv('pp2.csv') # populates pp2 with 84 students and 3 assistants, and adds all students to group according to assistants
+```
+
+### Task 7
+Implement `save_to_json` method in `PP2`. This methods dumps all data to JSON file that is saved in `filename`. All students and assistants are saved according to group affeliation
+```python
+pp2.save_to_json('pp2.json') # saves all pp2 data to pp2.json file
+```
+
+Example contents of saved JSON file:
+```json
+[
+    {
+        "Alik Akhmetov": [
+            {
+                "student_id": "16BD02006",
+                "name": {
+                    "first_name": "Daulet",
+                    "last_name": "Kabdiyev",
+                    "middle_name": "Bolatovich"
+                }
+            },
+            {
+                "student_id": "16BD02007",
+                "name": {
+                    "first_name": "Ivan",
+                    "last_name": "Ivanov",
+                    "middle_name": "Ivanovich"
+                }
+            }, 
+            ... # other students from Alik Akhmetov's group
+        ]
+    }, 
+    {
+        "Darkhan Turgyn": [  #Darkhan Turgyn group's students ]
+    },
+    {
+        "Bekbolat Ospan": [  #Bekbolat Ospan group's students ]
+    }
+]
+```
