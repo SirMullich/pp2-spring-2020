@@ -1,6 +1,24 @@
+"""
+006_time_baed_movement.py
+url: http://thepythongamebook.com/en:part2:pygame:step006
+author: horst.jens@spielend-programmieren.at
+licence: gpl, see http://www.gnu.org/licenses/gpl.html
+
+works with python3.4 and pyhton2.7
+
+bouncing ball. Movement is now time based.
+Because at coding, you never know exactly how many milliseconds
+will have been passed between two frames, this example use pygame's
+clock function to calculate the passed time and move the ballsurface at
+constantly the same speed.
+If you toggle the wild circle painting by pressing SPACE, the computer
+has more to paint, framerate will drop, more time will pass between
+2 frames and movement of the ball surface will be choppy (less smooth).
+However, the movent speed remain unchanged because of the time-based movement.
+"""
+
 import pygame
 import random
-
 
 def wildPainting():
     pygame.draw.circle(background, (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)),
